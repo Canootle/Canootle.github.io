@@ -11,7 +11,7 @@ myImg.addEventListener("click", () => {
         myImg.setAttribute("src", "images/fibonacci.webp");
     }
 }); 
-
+/*
 //create references for the button and heading 
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
@@ -40,3 +40,4 @@ myButton.addEventListener("click", () => {
     setUserName();
 });
 
+*/
