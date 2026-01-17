@@ -6,12 +6,12 @@ const myImg = document.querySelector("img");
 myImg.addEventListener("click", () => {
     const mySrc = myImg.getAttribute("src"); 
     if (mySrc === "images/fibonacci.webp") {
-        myImg.setAttribute("src", "images/fibonacci.jpg");
+        myImg.setAttribute("src", "images/thestomper.jpg");
     } else {
         myImg.setAttribute("src", "images/fibonacci.webp");
     }
 }); 
-/*
+
 //create references for the button and heading 
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
@@ -40,4 +40,3 @@ myButton.addEventListener("click", () => {
     setUserName();
 });
 
-*/
