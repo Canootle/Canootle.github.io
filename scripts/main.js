@@ -19,7 +19,7 @@ let myHeading = document.querySelector("h1");
 //set username to remember at later site visit
 function setUserName() {
     const userName = prompt("who the fuck are you: ");
-    if (!myName) {
+    if (!userName) {
         setUserName();
     } else {
         localStorage.setItem("name", userName);
