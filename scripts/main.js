@@ -1,4 +1,4 @@
-
+/*
 //store a reference to the <img> in a var
 const myImg = document.querySelector("img"); 
 
@@ -39,4 +39,4 @@ if (!localStorage.getItem("name")) {
 myButton.addEventListener("click", () => {
     setUserName();
 });
-
+*/ 
