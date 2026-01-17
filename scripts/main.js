@@ -6,7 +6,7 @@ const myImg = document.querySelector("img");
 myImg.addEventListener("click", () => {
     const mySrc = myImg.getAttribute("src"); 
     if (mySrc === "images/fibonacci.webp") {
-        myImg.setAttribute("src", "images/thestomper.jpg");
+        myImg.setAttribute("src", "images/fibonacci.jpg");
     } else {
         myImg.setAttribute("src", "images/fibonacci.webp");
     }
